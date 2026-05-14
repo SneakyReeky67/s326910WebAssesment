@@ -1,0 +1,7 @@
+.jumbotron{
+    Background-image: url('../images/pexels-davidgomes-2752776.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}

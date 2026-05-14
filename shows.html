@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head> 
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script src="script.js"></script>
+   <title> TV FINDER </title>
+   <script src="https://kit.fontawesome.com/87c7e6378e.js" crossorigin="anynomous"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+
+ <nav class="bg-gray-100 px-4 py-3 w-full">
+  <div class="flex items-center w-full">
+    <h1 class=" ml-10 md:ml-0 font-semibold text-lg">TV FINDER</h1>
+        <input
+      class="md:hidden absolute left-1/2 -translate-x-1/2 bg-gray-100 placeholder:text-black text-center w-96 searchInput"
+      placeholder="Search for your favourite tv shows and actors..."
+    >
+
+    <button
+      class="md:hidden ml-auto p-2 rounded hover:bg-gray-200 fixed"
+      onclick="document.getElementById('menu').classList.toggle('hidden')">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <ul id="menu" class="hidden md:flex flex-col md:flex-row gap-2 md:gap-4 list-none m-0 p-0 mt-3 md:mt-0 w-full">
+    <li><a class="hover:text-blue-700" href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a class="hover:text-blue-700" href="actors.html"><i class="fa-regular fa-star"></i> Actors</a></li>
+    <li><a class="hover:text-blue-700" href="shows.html"><i class="fa-solid fa-tv"></i> Shows</a></li>
+    <li class= " hidden md:flex border  border-gray-100 ml-64  "><input  class = "bg-gray-100 w-96 placeholder:text-black searchInput" placeholder="Search for your favourite tv shows and actors..."></li>
+    
+  </ul>
+  
+  
+</nav>
+
+<div class="p-12 mb-4 bg-gray-100 jumbotron">
+  <h1 class="text-5xl font-bold">Welcome to TV FINDER!</h1>
+  <p class="md:w-2/3 text-2xl">
+   Find out more about your favourite tv shows and actors here at TV Finder using the search feature or check out our shows and actors pages to learn about recent award winners and trending shows.
+  </p>
+</div>
