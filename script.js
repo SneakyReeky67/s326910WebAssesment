@@ -153,5 +153,8 @@ document.addEventListener("DOMContentLoaded",() => {
         `;
       });
     }
+  resultsSection.scrollIntoView({
+    behavior: "smooth"
+  });
   }
 });

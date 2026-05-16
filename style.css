@@ -1,7 +1,38 @@
 .jumbotron{
-    Background-image: url('../images/pexels-davidgomes-2752776.jpg');
+    Background-image: url('../images/pexels-derio-13806260.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     color: #fff;
+    margin-top:70px;
+}
+.jumbotron2{
+    Background-image: url('../images/pexels-helin-gezer-903013644-28463696.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    margin-top:70px;
+}
+.jumbotron3{
+    Background-image: url('../images/pexels-ron-lach-8088390.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    margin-top:70px;
+}
+/*This will mean that when it jumps to results after a user searches a actor or show it wont scroll all the way down and leave 60 px space
+so our navBar does not cover part of the results section  */
+#results {
+  scroll-margin-top: 60px;
+}
+/*This fixes the navigation bar to the top of the screen and takees it out of the flow of the page ensuring it stays in the same spot as a user scrolls through the page
+*/
+.navBar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
 }
